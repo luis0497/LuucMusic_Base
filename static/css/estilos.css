@@ -1,0 +1,293 @@
+/* ===========================
+   LUUCMUSIC
+   =========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#121212;
+
+    color:#FFFFFF;
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+/* ===========================
+        SIDEBAR
+=========================== */
+
+.sidebar{
+
+    width:260px;
+
+    min-height:100vh;
+
+    background:#181818;
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    padding:25px;
+
+    border-right:1px solid #2d2d2d;
+
+}
+
+.logo{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+.logo h3{
+
+    color:#00C896;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+}
+
+/* ===========================
+        MENÚ
+=========================== */
+
+.menu{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.menu li{
+
+    margin-bottom:10px;
+
+}
+
+.menu a{
+
+    display:block;
+
+    color:#d9d9d9;
+
+    text-decoration:none;
+
+    padding:12px 15px;
+
+    border-radius:12px;
+
+    transition:.3s;
+
+}
+
+.menu a:hover{
+
+    background:#00C896;
+
+    color:#fff;
+
+}
+
+.menu i{
+
+    margin-right:10px;
+
+}
+
+/* ===========================
+        CONTENIDO
+=========================== */
+
+.contenido{
+
+    margin-left:260px;
+
+    width:100%;
+
+    padding:25px;
+
+}
+
+/* ===========================
+        NAVBAR
+=========================== */
+
+.navbar{
+
+    background:#202020 !important;
+
+    border-radius:15px;
+
+}
+
+.navbar input{
+
+    background:#2d2d2d;
+
+    border:none;
+
+    color:white;
+
+}
+
+.navbar input::placeholder{
+
+    color:#B3B3B3;
+
+}
+
+.navbar input:focus{
+
+    background:#323232;
+
+    color:white;
+
+    box-shadow:none;
+
+}
+
+/* ===========================
+        TARJETAS
+=========================== */
+
+.card{
+
+    background:#252525;
+
+    border:none;
+
+    border-radius:18px;
+
+    color:white;
+
+    transition:.25s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0px 10px 20px rgba(0,0,0,.4);
+
+}
+
+/* ===========================
+        TABLAS
+=========================== */
+
+.table{
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+.table-dark{
+
+    --bs-table-bg:#252525;
+
+}
+
+/* ===========================
+        BOTONES
+=========================== */
+
+.btn-success{
+
+    background:#00C896;
+
+    border:none;
+
+}
+
+.btn-success:hover{
+
+    background:#00B184;
+
+}
+
+/* ===========================
+        LOGIN
+=========================== */
+
+.login-body{
+
+    background:linear-gradient(
+
+        140deg,
+
+        #121212,
+
+        #181818,
+
+        #00C896
+
+    );
+
+}
+
+.login-body .card{
+
+    background:#202020;
+
+    border-radius:20px;
+
+}
+
+.login-body input{
+
+    background:#2d2d2d;
+
+    border:none;
+
+    color:white;
+
+}
+
+.login-body input:focus{
+
+    background:#323232;
+
+    color:white;
+
+}
+
+/* ===========================
+        SCROLL
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#00C896;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#181818;
+
+}
