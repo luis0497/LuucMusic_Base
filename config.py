@@ -1,9 +1,13 @@
 class Config:
 
+    # Clave secreta de Flask
     SECRET_KEY = "luucmusic2026"
 
-    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:1234@localhost/luucmusic"
+    # Conexión a MySQL (Laragon)
+    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:@localhost/luucmusic"
 
+    # Desactiva el seguimiento de modificaciones
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
+    # Carpeta para archivos subidos
     UPLOAD_FOLDER = "static/uploads"
